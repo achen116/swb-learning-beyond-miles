@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SwbAeroplan</title>
+  <title>SWB Aeroplan</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <!-- Bootstrap CDN -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Bootstrap Rendering/Touch Zooming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 
-<%= yield %>
+	<%= yield %>
 
+  <!-- Bootstrap CDN Script -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
