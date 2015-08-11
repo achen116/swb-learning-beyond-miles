@@ -1,12 +1,11 @@
 <h1>SWB Aeroplan Home</h1>
 
-<% @organizations.each do |org| %>
-	<li>
-		<%= org.name %>
-		<br>
-		<%= org.headquarters %>
-		<br>
-		<%= Theme.find(org.theme_id).name %>
-		<img src="<%= org.image %>"/>
-	</li>
-<% end %>
+<div class="container" id="orgs-grid">
+	<div class="row">
+		<% @organizations.each do |org| %>
+			<div class="col-md-2">
+				<img src="<%= org.image %>" />
+			</div>
+		<% end %>
+	</div>
+</div>
