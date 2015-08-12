@@ -3,11 +3,11 @@
 		<% @organizations.each do |org| %>
 			<div class="col-xs-6 col-md-2" id="org-image">
 				<%= link_to(org, class: "thumbnail") do %>
-					<img src="<%= org.image %>">
+					<img alt="<%= org.name %>" src="<%= org.image %>">
 				<% end %>
 			</div>
 
-			<div class="col-xs-6 col-md-2" id="org-image">
+			<div class="col-xs-6 col-md-2" id="org-name">
 				<%= link_to(org, class: "thumbnail") do %>
 					<%= org.name %>
 				<% end %>
