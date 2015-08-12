@@ -1,7 +1,28 @@
 <div class="container">
+
 	<h2><%= @organization.name %></h2>
 	<h4><%= @organization.headquarters %></h4>
 	<%= link_to(@organization.website, target: "blank") do %>
 		<%= @organization.website %>
 	<% end %>
+
+	<div class="row">
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img alt="<%= @organization.name %>" src="<%= @organization.image %>">
+			</div>
+		</div>
+	</div>
+
+	<%= link_to(@organization.facebook, target: "blank") do %>
+		<img alt="facebook" src="">
+	<% end %>
+	<%= link_to(@organization.twitter, target: "blank") do %>
+		<img alt="twitter" src="">
+	<% end %>
+	<%= link_to(@organization.instagram, target: "blank") do %>
+		<img alt="instagram" src="">
+	<% end %>
+
 </div>
+
