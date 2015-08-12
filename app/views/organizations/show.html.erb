@@ -1,0 +1,7 @@
+<div class="container">
+	<h2><%= @organization.name %></h2>
+	<h4><%= @organization.headquarters %></h4>
+	<%= link_to(@organization.website, target: "blank") do %>
+		<%= @organization.website %>
+	<% end %>
+</div>
