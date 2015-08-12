@@ -1,8 +1,10 @@
 <div class="container" id="orgs-grid">
 	<div class="row">
 		<% @organizations.each do |org| %>
-			<div class="col-md-2">
-				<img src="<%= org.image %>" />
+			<div class="col-xs-6 col-md-2">
+				<a href="#" class="thumbnail">
+					<img src="<%= org.image %>">
+				</a>
 			</div>
 		<% end %>
 	</div>
