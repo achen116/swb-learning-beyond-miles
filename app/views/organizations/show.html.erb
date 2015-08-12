@@ -12,6 +12,9 @@
 				<img alt="<%= @organization.name %>" src="<%= @organization.image %>">
 			</div>
 		</div>
+		<div class="col-md-8">
+			<p><%= @organization.description %></p>
+		</div>
 	</div>
 
 	<%= link_to(@organization.facebook, target: "blank") do %>
@@ -25,4 +28,3 @@
 	<% end %>
 
 </div>
-
