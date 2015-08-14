@@ -1,0 +1,2 @@
+module BeyondmilesHelper
+end
