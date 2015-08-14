@@ -1,32 +1,21 @@
 (function(){
 
 	$(document).ready(function() {
-		hover();
+		// hover();
 
 	});
 
 	var hover = function() {
-		$('.org-image').hover(
+		$('.org-info').hover(
 			function() {
 		    $(this).hide();
 		    $(this).siblings().show();
+			},
+			function() {
+		    $(this).show();
+		    $(this).siblings().hide();
 			}
-			// function() {
-		 //    $(this).show();
-			// }
 		);
 	}
 
 })();
-
-
-// $('.org-info').hover(
-// 			function() {
-// 		    $(this).find('.org-image').hide();
-// 		    $(this).find('.org-name').show();
-// 			},
-// 			function() {
-// 		    $(this).find('.org-name').hide();
-// 		    $(this).find('.org-image').show();
-// 			}
-// 		);
