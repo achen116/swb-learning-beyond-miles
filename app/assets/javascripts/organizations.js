@@ -6,16 +6,27 @@
 	});
 
 	var hover = function() {
-		$('.org-info').hover(
+		$('.org-image').hover(
 			function() {
-		    $(this).find('.org-image').hide();
-		    $(this).find('.org-name').show();
-			},
-			function() {
-		    $(this).find('.org-name').hide();
-		    $(this).find('.org-image').show();
+		    $(this).hide();
+		    $(this).siblings().show();
 			}
+			// function() {
+		 //    $(this).show();
+			// }
 		);
 	}
 
 })();
+
+
+// $('.org-info').hover(
+// 			function() {
+// 		    $(this).find('.org-image').hide();
+// 		    $(this).find('.org-name').show();
+// 			},
+// 			function() {
+// 		    $(this).find('.org-name').hide();
+// 		    $(this).find('.org-image').show();
+// 			}
+// 		);
