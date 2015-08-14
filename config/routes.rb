@@ -3,6 +3,6 @@ Rails.application.routes.draw do
 
   resources :organizations, only: [:index, :show]
   
-  get 'beyondmiles/about'
-  get 'beyondmiles/contact'
+  get 'beyondmiles/about', :as => 'about'
+  get 'beyondmiles/contact', :as => 'contact'
 end
