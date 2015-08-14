@@ -1,19 +1,19 @@
 (function(){
 
 	$(document).ready(function() {
-		// hover();
+		hover();
 
 	});
 
 	var hover = function() {
 		$('.org-info').hover(
 			function() {
-		    $(this).hide();
-		    $(this).siblings().show();
+		    $(this).find('.org-image').hide();
+		    $(this).find('.org-name').show();
 			},
 			function() {
-		    $(this).show();
-		    $(this).siblings().hide();
+		    $(this).find('.org-image').show();
+		    $(this).find('.org-name').hide();
 			}
 		);
 	}

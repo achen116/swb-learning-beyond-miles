@@ -1,13 +1,12 @@
 <div class="container orgs-grid">
 	<div class="row">
 		<% @organizations.each do |org| %>
-			<div class="col-xs-6 col-md-2">
-				<div>
-					
+			<div class="col-xs-6 col-md-2 org-info">
+				<div class="org-image">
+					<%= link_to(org, class: "thumbnail") do %>
+						<img alt="<%= org.name %>" src="<%= org.image %>">
+					<% end %>
 				</div>
-				<%= link_to(org, class: "thumbnail org-image") do %>
-					<img alt="<%= org.name %>" src="<%= org.image %>">
-				<% end %>
 
 				<div class="org-name">
 					<%= link_to(org, class: "thumbnail") do %>
