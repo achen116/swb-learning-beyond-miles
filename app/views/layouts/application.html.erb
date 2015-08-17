@@ -37,7 +37,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<!-- Links -->
 				<ul class="nav navbar-nav">
-					<li class="active">
+					<li>
 						<%= link_to(about_path) do %>
 							About <span class="sr-only">(current)</span>
 						<% end %>
@@ -53,14 +53,13 @@
 		</div>
 	</nav>
 
-	<!-- Banner -->
-	<div class="jumbotron" id="banner">
-		<div class="container" id="banner-content">
-			<img id="banner" alt="swb" src="http://localhost:3000/imgs/banner.png">
-		</div>
-	</div>
 
-	<%= yield %>
+	<div id="page-wrap">
+		<!-- Banner -->
+		<div class="container banner"></div>
+
+		<%= yield %>
+	</div>
 
 	<!-- Footer -->
 	<footer class="footer">

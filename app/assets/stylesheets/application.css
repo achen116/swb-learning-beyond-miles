@@ -14,21 +14,21 @@
  *= require_self
  */
 
-#navbar {
-}
-
 #swb-logo {
 	width: 40px;
 }
 
-#banner {
+.banner {
+	height: 300px;
+	width: 1000px;
+	background-size: cover;
 	background-color: white;
-	padding-bottom: 0px;
+	background-image: url("http://localhost:3000/imgs/banner.png");
+	margin-bottom: 25px;
 }
 
-#banner-content {
-	height: 250px;
-	background-color: #8879A9;
+#page-wrap {
+  margin-top: 50px;
 }
 
 .footer {
