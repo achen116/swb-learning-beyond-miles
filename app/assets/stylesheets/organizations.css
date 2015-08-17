@@ -1,4 +1,12 @@
+.org-info {
+	height: 200px;
+}
+
 .org-name {
 	display: none;
+	height: 200px;
+}
+
+#org-image {
 	height: 185px;
 }
