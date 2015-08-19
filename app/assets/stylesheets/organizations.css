@@ -1,6 +1,7 @@
 .org-banner {
 	background-size: 100% auto;
-	background-position-y: -125px; 
+	background-position-y: -125px;
+	background-repeat: no-repeat;
 	margin-bottom: 25px;
 }
 
@@ -9,6 +10,16 @@
 	padding-bottom: 125px;
 	background-color: rgba(0,0,0,0.4);
 	color: #FFF;
+}
+
+@media(max-width: 767px){
+	.org-banner {
+		background-position-y: 0px;
+	}
+	.org-banner-title {
+		padding-top: 75px;
+		padding-bottom: 75px;
+	}
 }
 
 .org-info {
