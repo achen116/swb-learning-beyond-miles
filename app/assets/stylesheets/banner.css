@@ -1,8 +1,20 @@
 .banner {
-	height: 400px;
+	height: 500px;
 	width: 100%;
 	background-size: 100% auto;
 	background-image: url("http://localhost:3000/imgs/aeroplan-banner.png");
 	background-repeat: no-repeat;
 	margin-bottom: 25px;
+}
+
+@media(max-width: 766px){
+	.banner { 
+		height: 100px;
+	}
+}
+
+@media(min-width: 767px) and (max-width: 1024px){
+	.banner {
+		height: 300px;
+	}
 }
