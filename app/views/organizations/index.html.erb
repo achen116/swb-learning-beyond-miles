@@ -14,12 +14,13 @@
 			<div class="org-info col-md-1 thumbnail text-center">
 				<img class="org-image img-responsive" id="org-image" alt="<%= org.name %>" src="<%= org.image %>">
 
-				<%= link_to(org) do %>
-					<%= org.name %>
-				<% end %>
-				<p><%= org.headquarters %></p>
+				<div class="text-center">
+					<%= link_to(org) do %>
+						<%= org.name %>
+					<% end %>
+					<p><%= org.headquarters %></p>
+				</div>
 			</div>
 		<% end %>
 	</div>
-	
 </div>
