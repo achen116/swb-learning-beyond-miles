@@ -60,14 +60,17 @@ p.org-hq {
 }
 
 .donate-today {
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
-.btn-donate {
-	background-color: rgba(194, 139, 46, 1);
-	color: white;
+#btn-donate {
+	background-color: #C28B2E;
+	color: #FFF;
+	font-size: 16px;
+	padding: 15px 20px;
+	border-radius: 0px;
 }
 
-.btn-donate:hover {
-	background-color: rgba(194, 139, 46, 0.8);
+#btn-donate:hover {
+	background-color: #54B2A4;
 }
