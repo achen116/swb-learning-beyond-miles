@@ -1,5 +1,5 @@
 .page-banner {
-	background-image: url('http://localhost:3000/imgs/org-banner.png');
+	background-image: url('http://beyondmiles.herokuapp.com/imgs/org-banner.png');
 	height: 300px;
 	padding-top: 120px;
 	margin-bottom: 35px;
