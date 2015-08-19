@@ -14,28 +14,8 @@
  *= require_self
  */
 
-#swb-logo {
-	width: 40px;
-}
-
-.banner {
-	height: 300px;
-	width: 1000px;
-	background-size: cover;
-	background-color: white;
-	background-image: url("http://localhost:3000/imgs/banner.png");
-	margin-bottom: 25px;
-}
-
 #page-wrap {
   margin-top: 50px;
-}
-
-.footer {
-	margin-top: 100px;
-	padding-top: 20px;
-	height: 60px;
-  background-color: #D1D2D4;
 }
 
 @media (min-width: 768px){
@@ -56,10 +36,7 @@
   }
 }
 
-/**
- *  The following is not really needed in this case
- *  Only to demonstrate the usage of @media for large screens
- */    
+/* @media usage for large screens */    
 @media (min-width: 1200px) {
   .seven-cols .col-md-1,
   .seven-cols .col-sm-1,
