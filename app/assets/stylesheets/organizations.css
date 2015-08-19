@@ -2,7 +2,7 @@
 	background-size: 100% auto;
 	background-position-y: -125px;
 	background-repeat: no-repeat;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 
 .org-banner-title {
@@ -24,6 +24,30 @@
 
 .org-info {
 	height: 200px;
+}
+
+@media(max-width: 434px){
+  #org-thumbnail {
+  	height: 350px;
+  }
+}
+
+@media(min-width: 435px) and (max-width: 534px) {
+	#org-thumbnail {
+  	height: 400px;
+  }
+}
+
+@media(min-width: 535px) and (max-width: 766px) {
+	#org-thumbnail {
+  	height: 550px;
+  }
+}
+
+@media(min-width: 767px) and (max-width: 992px) {
+	#org-thumbnail {
+  	height: 600px;
+  }
 }
 
 .org-name-hq {
@@ -59,6 +83,10 @@ p.org-hq {
 	opacity: 0.4;
 }
 
+.content {
+	margin-bottom: 25px
+}
+
 .donate-today {
 	margin-bottom: 25px;
 }
@@ -73,4 +101,8 @@ p.org-hq {
 
 #btn-donate:hover {
 	background-color: #54B2A4;
+}
+
+i {
+	padding-right: 10px;
 }

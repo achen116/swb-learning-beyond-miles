@@ -12,15 +12,17 @@
 <div class="container">
 
 	<div class="row">
-		<div class="col-sm-6 col-md-8 col-md-offset-2 text-center">
+		<div class="content col-sm-6 col-md-8 col-md-offset-2 text-center">
 			<p><%= @organization.description %></p>
-			<%= link_to(@organization.website, target: "blank") do %>
-				<%= @organization.website %>
-			<% end %>
+			<p>Learn More:
+				<%= link_to(@organization.website, target: "blank") do %>
+					<%= @organization.website %>
+				<% end %>
+			</p>
 	</div>
 
 	<div class="row">
-		<div class="col-sm-6 col-md-8 col-md-offset-2 text-center">
+		<div class="content social-media col-sm-6 col-md-8 col-md-offset-2 text-center">
 			<%= link_to(@organization.facebook, target: "blank") do %>
 				<i class="fa fa-facebook fa-2x"></i>
 			<% end %>
