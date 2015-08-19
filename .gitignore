@@ -15,7 +15,5 @@
 # Ignore dotenv file
 .env
 
-# Ignore dev/production secret file
-/config/secrets.yml
 
 .DS_Store
