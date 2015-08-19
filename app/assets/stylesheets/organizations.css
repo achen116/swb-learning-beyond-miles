@@ -1,9 +1,14 @@
 .org-banner {
-	background-image: url('http://localhost:3000/imgs/org-banner.png');
-	height: 350px;
 	background-size: 100% auto;
-	padding-top: 125px;
+	background-position-y: -100px; 
 	margin-bottom: 25px;
+}
+
+.org-banner-title {
+	padding-top: 125px;
+	padding-bottom: 125px;
+	background-color: rgba(0,0,0,0.4);
+	color: #FFF;
 }
 
 .org-info {
@@ -16,11 +21,11 @@
 }
 
 a.org-title {
-	color: #000;
+	color: #FFF;
 }
 
 a:hover.org-title {
-	color: #000;
+	color: #FFF;
 	text-decoration: none;
 }
 
