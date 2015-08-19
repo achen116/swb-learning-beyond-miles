@@ -5,25 +5,19 @@
 				Your Aeroplan Miles fuel the most dynamic learning initiatives around the world!
 				<br>Click below to see how your donations take Learning Beyond Miles.
 			</h3>
-      <button type="button" class="btn btn-default">Donate Today</button>
+      <button type="button" class="btn btn-donate">Donate Today</button>
 		</div>
 	</div>
 
 	<div class="row seven-cols">
 		<% @organizations.each do |org| %>
-			<div class="col-md-1 thumbnail org-info">
-				<div class="org-image">
-					<%= link_to(org) do %>
-						<img class="img-responsive" id="org-image" alt="<%= org.name %>" src="<%= org.image %>">
-					<% end %>
-				</div>
+			<div class="org-info col-md-1 thumbnail text-center">
+				<img class="org-image img-responsive" id="org-image" alt="<%= org.name %>" src="<%= org.image %>">
 
-				<div class="org-name text-center">
-					<%= link_to(org) do %>
-						<%= org.name %>
-					<% end %>
-					<p><%= org.headquarters %></p>
-				</div>
+				<%= link_to(org) do %>
+					<%= org.name %>
+				<% end %>
+				<p><%= org.headquarters %></p>
 			</div>
 		<% end %>
 	</div>

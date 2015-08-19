@@ -8,12 +8,10 @@
 	var hover = function() {
 		$('.org-info').hover(
 			function() {
-		    $(this).find('.org-image').hide();
-		    $(this).find('.org-name').show();
+		    $(this).find('.org-image').css('opacity', 1);
 			},
 			function() {
-		    $(this).find('.org-image').show();
-		    $(this).find('.org-name').hide();
+		    $(this).find('.org-image').css('opacity', 0.4);
 			}
 		);
 	}
