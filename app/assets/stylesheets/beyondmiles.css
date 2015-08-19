@@ -22,3 +22,15 @@ p {
 .content {
 	margin-bottom: 25px;
 }
+
+#btn-contact {
+	background-color: #54B2A4;
+	color: #FFF;
+	font-size: 15px;
+	padding: 10px 15px;
+	border-radius: 0px;
+}
+
+#btn-contact:hover {
+	color: #000;
+}
