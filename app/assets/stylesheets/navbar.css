@@ -1,7 +1,17 @@
-#swb-logo {
-	width: 40px;
+nav {
+	background: #FFF;
+	font-family: 'Oswald', sans-serif;
+	height: 25px;
 }
 
-#navbar {
-	font-family: 'Oswald', sans-serif;
+nav a {
+	color: #57b1a2;
+}
+
+nav a:hover {
+	color: #FFF;
+}
+
+#swb-logo {
+	width: 75px;
 }

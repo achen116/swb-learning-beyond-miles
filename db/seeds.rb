@@ -12,7 +12,7 @@ Organization.create!(
 	headquarters: "Toronto, Canada", 
 	theme_id: 1, 
 	website: "http://www.theatrewhynot.org", 
-	image: "http://localhost:3000/imgs/whynot-theatre.jpg", 
+	image: "http://localhost:3000/imgs/whynot-theatre.png", 
 	facebook: "https://www.facebook.com/theatrewhynot", 
 	twitter: "https://twitter.com/theatrewhynot", 
 	instagram: "https://instagram.com")
@@ -23,7 +23,7 @@ Organization.create!(
 	headquarters: "Berkeley, CA", 
 	theme_id: 4, 
 	website: "http://www.yesworld.org", 
-	image: "http://localhost:3000/imgs/yes.jpg", 
+	image: "http://localhost:3000/imgs/yes.png", 
 	facebook: "https://www.facebook.com/yescommunity", 
 	twitter: "https://twitter.com/yeschangemakers", 
 	instagram: "https://instagram.com")
@@ -34,7 +34,7 @@ Organization.create!(
 	headquarters: "Portland, OR", 
 	theme_id: 5, 
 	website: "http://www.ictcmidwives.org", 
-	image: "http://localhost:3000/imgs/ictc.jpg", 
+	image: "http://localhost:3000/imgs/ictc.png", 
 	facebook: "https://www.facebook.com/groups/20977465206", 
 	twitter: "https://twitter.com/ictcmidwives", 
 	instagram: "https://instagram.com")
@@ -56,7 +56,7 @@ Organization.create!(
 	headquarters: "Costa Rica", 
 	theme_id: 5, 
 	website: "http://enlivenedlearning.com", 
-	image: "http://localhost:3000/imgs/enlivened-learning.jpg", 
+	image: "http://localhost:3000/imgs/enlivened-learning.png", 
 	facebook: "https://www.facebook.com/enlivenedlearning", 
 	twitter: "https://twitter.com/tweetswb", 
 	instagram: "https://instagram.com")
@@ -67,7 +67,7 @@ Organization.create!(
 	headquarters: "Udaipur, India", 
 	theme_id: 5, 
 	website: "http://www.swaraj.org/shikshantar/resisting.html", 
-	image: "http://localhost:3000/imgs/shikshantar.jpg", 
+	image: "http://localhost:3000/imgs/shikshantar.png", 
 	facebook: "https://www.facebook.com/pages/shikshantar-andolan/126196370730355", 
 	twitter: "https://twitter.com/tweetswb", 
 	instagram: "https://instagram.com")
@@ -78,7 +78,7 @@ Organization.create!(
 	headquarters: "Toronto, ON", 
 	theme_id: 1, 
 	website: "https://collaborationinnovation.wordpress.com", 
-	image: "http://localhost:3000/imgs/rehana-tejpar.jpg", 
+	image: "http://localhost:3000/imgs/rehana-tejpar.png", 
 	facebook: "https://www.facebook.com/rehanat", 
 	twitter: "https://twitter.com/rehanatejpar", 
 	instagram: "https://instagram.com")
@@ -89,7 +89,7 @@ Organization.create!(
 	headquarters: "Port of Spain, Trinidad", 
 	theme_id: 3, 
 	website: "http://www.bstudioproject.com", 
-	image: "http://localhost:3000/imgs/agents-of-change.jpg", 
+	image: "http://localhost:3000/imgs/agents-of-change.png", 
 	facebook: "https://www.facebook.com/groups/270644846370472", 
 	twitter: "https://twitter.com/kdemming", 
 	instagram: "https://instagram.com")
@@ -100,7 +100,7 @@ Organization.create!(
 	headquarters: "Guatemala", 
 	theme_id: 3, 
 	website: "http://www.projectseres.org", 
-	image: "http://localhost:3000/imgs/seres.jpg", 
+	image: "http://localhost:3000/imgs/seres.png", 
 	facebook: "https://www.facebook.com/pages/seres/294182813750", 
 	twitter: "https://twitter.com/seresproject", 
 	instagram: "https://instagram.com")
@@ -111,7 +111,7 @@ Organization.create!(
 	headquarters: "Guatemala", 
 	theme_id: 6, 
 	website: "http://www.soulcocina.org", 
-	image: "http://localhost:3000/imgs/foodscapes.jpg", 
+	image: "http://localhost:3000/imgs/foodscapes.png", 
 	facebook: "https://www.facebook.com/thesoulcocina", 
 	twitter: "https://twitter.com/soulcocina", 
 	instagram: "https://instagram.com")
@@ -133,7 +133,7 @@ Organization.create!(
 	headquarters: "Toronto, ON", 
 	theme_id: 1, 
 	website: "http://www.sketch.ca", 
-	image: "http://localhost:3000/imgs/sketch.jpg", 
+	image: "http://localhost:3000/imgs/sketch.png", 
 	facebook: "https://www.facebook.com/sketch.toronto", 
 	twitter: "https://twitter.com/sketchtoronto", 
 	instagram: "https://instagram.com")
@@ -144,7 +144,7 @@ Organization.create!(
 	headquarters: "Algoma District, ON", 
 	theme_id: 5, 
 	website: "http://www.thinkingrock.ca", 
-	image: "http://localhost:3000/imgs/thinking-rock.jpg", 
+	image: "http://localhost:3000/imgs/thinking-rock.png", 
 	facebook: "https://www.facebook.com/thinkingrockarts", 
 	twitter: "https://twitter.com/thinkingrockca", 
 	instagram: "https://instagram.com")
@@ -178,7 +178,7 @@ Organization.create!(
 	headquarters: "Berkeley, CA", 
 	theme_id: 3, 
 	website: "http://www.thewholepersoneconomy.com", 
-	image: "http://localhost:3000/imgs/whole-person-economy.jpg", 
+	image: "http://localhost:3000/imgs/whole-person-economy.png", 
 	facebook: "https://www.facebook.com/swbca", 
 	twitter: "https://twitter.com/tweetswb", 
 	instagram: "https://instagram.com")
@@ -189,7 +189,7 @@ Organization.create!(
 	headquarters: "Grenada", 
 	theme_id: 2, 
 	website: "http://www.groundationgrenada.com", 
-	image: "https://robohash.org/groundation-grenada.png", 
+	image: "http://localhost:3000/imgs/groundation-grenada.png", 
 	facebook: "https://www.facebook.com/groundationgrenada", 
 	twitter: "https://twitter.com/groundationgda", 
 	instagram: "https://instagram.com")
@@ -200,7 +200,7 @@ Organization.create!(
 	headquarters: "Oakland, CA", 
 	theme_id: 4, 
 	website: "https://oakland.impacthub.net", 
-	image: "http://localhost:3000/imgs/impact-hub.jpg", 
+	image: "http://localhost:3000/imgs/impact-hub.png", 
 	facebook: "https://www.facebook.com/impacthuboak", 
 	twitter: "https://twitter.com/impacthub_oak", 
 	instagram: "https://instagram.com")
@@ -211,7 +211,7 @@ Organization.create!(
 	headquarters: "Toronto, ON + Hargesia, Somaliland", 
 	theme_id: 2, 
 	website: "http://www.gashantiunity.ca", 
-	image: "http://localhost:3000/imgs/gashanti-unity.jpg", 
+	image: "http://localhost:3000/imgs/gashanti-unity.png", 
 	facebook: "https://www.facebook.com/gashantiunityto", 
 	twitter: "https://twitter.com/gashantiunity", 
 	instagram: "https://instagram.com")
@@ -233,7 +233,7 @@ Organization.create!(
 headquarters: "Chile + Turkey +Thailand", 
 theme_id: 3, 
 website: "http://www.the-go-project.com", 
-image: "http://localhost:3000/imgs/go-project.jpg", 
+image: "http://localhost:3000/imgs/go-project.png", 
 facebook: "https://www.facebook.com/thegoproject", 
 twitter: "https://twitter.com/the_goproject", 
 instagram: "https://instagram.com/the_goproject")

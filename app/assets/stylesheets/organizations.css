@@ -1,14 +1,14 @@
 .org-info {
-	height: 200px;
+	height: 150px;
 }
 
 .org-name {
 	display: none;
-	height: 200px;
+	height: 150px;
 }
 
 #org-image {
-	height: 185px;
+	height: 150px;
 }
 
 .donate-today {
