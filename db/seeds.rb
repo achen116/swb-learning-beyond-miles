@@ -45,7 +45,7 @@ Organization.create!(
 	headquarters: "Cortes Island, BC", 
 	theme_id: 3, 
 	website: "http://www.hollyhock.ca", 
-	image: "https://robohash.org/hollyhock.png", 
+	image: "http://localhost:3000/imgs/placeholder.png", 
 	facebook: "https://www.facebook.com//hollyhocklife", 
 	twitter: "https://twitter.com/hollyhocklife", 
 	instagram: "https://instagram.com")
@@ -155,7 +155,7 @@ Organization.create!(
 	headquarters: "Oakland, CA", 
 	theme_id: 6, 
 	website: "http://www.blackpermaculturenetwork.org", 
-	image: "https://robohash.org/black-permaculture-network.png", 
+	image: "http://localhost:3000/imgs/placeholder.png", 
 	facebook: "https://www.facebook.com/groups/680584661986420", 
 	twitter: "https://twitter.com/pandulce", 
 	instagram: "https://instagram.com")
@@ -167,7 +167,7 @@ Organization.create!(
 	headquarters: "Vancouver, BC", 
 	theme_id: 6, 
 	website: "http://www.indigeneyez.com", 
-	image: "https://robohash.org/indigeneyez.png", 
+	image: "http://localhost:3000/imgs/placeholder.png", 
 	facebook: "https://www.facebook.com/indigeneyez", 
 	twitter: "https://twitter.com/tweetswb", 
 	instagram: "https://instagram.com")

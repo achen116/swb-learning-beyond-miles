@@ -1,13 +1,9 @@
 .org-info {
-	height: 150px;
+	height: 175px;
 }
 
 .org-name {
 	display: none;
-	height: 150px;
-}
-
-#org-image {
 	height: 150px;
 }
 
