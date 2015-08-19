@@ -1,30 +1,44 @@
+<div class="org-banner text-center">
+	<h1>
+		<%= link_to(@organization.website, class: "org-title", target: "blank") do %>
+			<%= @organization.name.upcase %>
+		<% end %>
+	</h1>
+	<h4><%= @organization.headquarters.upcase %></h4>
+</div>
+
 <div class="container">
 
-	<h2><%= @organization.name %></h2>
-	<h4><%= @organization.headquarters %></h4>
-	<%= link_to(@organization.website, target: "blank") do %>
-		<%= @organization.website %>
-	<% end %>
-
 	<div class="row">
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-6 col-md-8 col-md-offset-2 text-center">
 			<div class="thumbnail">
-				<img alt="<%= @organization.name %>" src="<%= @organization.image %>">
+				<!-- <img alt="<%= @organization.name %>" src="<%= @organization.image %>"> -->
 			</div>
-		</div>
-		<div class="col-md-8">
-			<p><%= @organization.description %></p>
 		</div>
 	</div>
 
-	<%= link_to(@organization.facebook, target: "blank") do %>
-		<img alt="facebook" src="">
-	<% end %>
-	<%= link_to(@organization.twitter, target: "blank") do %>
-		<img alt="twitter" src="">
-	<% end %>
-	<%= link_to(@organization.instagram, target: "blank") do %>
-		<img alt="instagram" src="">
-	<% end %>
+	<div class="row">
+		<div class="col-sm-6 col-md-8 col-md-offset-2 text-center">
+		<!-- <div class="col-md-8 text-center"> -->
+			<p><%= @organization.description %></p>
+			<%= link_to(@organization.website, target: "blank") do %>
+				<%= @organization.website %>
+			<% end %>
+		<!-- </div> -->
+	</div>
+
+	<div class="row">
+		<div class="col-sm-6 col-md-8 col-md-offset-2 text-center">
+			<%= link_to(@organization.facebook, target: "blank") do %>
+				<img alt="facebook" src="">
+			<% end %>
+			<%= link_to(@organization.twitter, target: "blank") do %>
+				<img alt="twitter" src="">
+			<% end %>
+			<%= link_to(@organization.instagram, target: "blank") do %>
+				<img alt="instagram" src="">
+			<% end %>
+		</div>
+	</div>
 
 </div>

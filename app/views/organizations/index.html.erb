@@ -1,3 +1,5 @@
+<div class="banner"></div>
+
 <div class="container orgs-grid">
 	<div class="row donate-today">
 		<div class="col-md-12 text-center">
@@ -14,11 +16,11 @@
 			<div class="org-info col-md-1 thumbnail text-center">
 				<img class="org-image img-responsive" id="org-image" alt="<%= org.name %>" src="<%= org.image %>">
 
-				<div class="text-center">
-					<%= link_to(org) do %>
-						<%= org.name %>
+				<div class="org-name-hq text-center">
+					<%= link_to(org, class: "org-name") do %>
+						<%= org.name.upcase %>
 					<% end %>
-					<p><%= org.headquarters %></p>
+					<p class="org-hq"><%= org.headquarters.upcase %></p>
 				</div>
 			</div>
 		<% end %>
