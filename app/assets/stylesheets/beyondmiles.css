@@ -1,3 +1,36 @@
-#about img {
-	height: 200px;
+.page-banner {
+	background-image: url('http://localhost:3000/imgs/org-banner.png');
+	height: 300px;
+	padding-top: 120px;
+	margin-bottom: 35px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+@media(max-width: 767px){
+	.page-banner { 
+		height: 150px;
+		padding-top: 40px;
+	}
+}
+
+p {
+	font-family: 'Nixie One', cursive;
+	font-size: 16px;
+}
+
+.content {
+	margin-bottom: 25x;
+}
+
+#btn-contact {
+	background-color: #54B2A4;
+	color: #FFF;
+	font-size: 15px;
+	padding: 10px 15px;
+	border-radius: 0px;
+}
+
+#btn-contact:hover {
+	color: #000;
 }

@@ -1,25 +1,108 @@
-.org-info {
-	height: 175px;
+.org-banner {
+	background-size: 100% auto;
+	background-position-y: -125px;
+	background-repeat: no-repeat;
+	margin-bottom: 35px;
 }
 
-.org-name {
-	display: none;
+.org-banner-title {
+	padding-top: 125px;
+	padding-bottom: 125px;
+	background-color: rgba(0,0,0,0.4);
+	color: #FFF;
+}
+
+@media(max-width: 767px){
+	.org-banner {
+		background-position-y: 0px;
+	}
+	.org-banner-title {
+		padding-top: 75px;
+		padding-bottom: 75px;
+	}
+}
+
+.org-info {
 	height: 200px;
+}
+
+@media(max-width: 434px){
+  #org-thumbnail {
+  	height: 350px;
+  }
+}
+
+@media(min-width: 435px) and (max-width: 534px) {
+	#org-thumbnail {
+  	height: 400px;
+  }
+}
+
+@media(min-width: 535px) and (max-width: 766px) {
+	#org-thumbnail {
+  	height: 550px;
+  }
+}
+
+@media(min-width: 767px) and (max-width: 992px) {
+	#org-thumbnail {
+  	height: 600px;
+  }
+}
+
+.org-name-hq {
+	height: 200px;
+	padding-top: 12px;
+}
+
+a.org-title {
+	color: #FFF;
+}
+
+a:hover.org-title {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.org-name {
+	color: #000;
+}
+
+a:hover.org-name {
+	color: #54B2A4;
+	text-decoration: none;
+}
+
+p.org-hq {
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	color: #555;
 }
 
 .org-image {
 	opacity: 0.4;
 }
 
+.content {
+	margin-bottom: 25px
+}
+
 .donate-today {
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
-.btn-donate {
-	background-color: rgba(194, 139, 46, 1);
-	color: white;
+#btn-donate {
+	background-color: #C28B2E;
+	color: #FFF;
+	font-size: 16px;
+	padding: 15px 20px;
+	border-radius: 0px;
 }
 
-.btn-donate:hover {
-	background-color: rgba(194, 139, 46, 0.8);
+#btn-donate:hover {
+	background-color: #54B2A4;
+}
+
+i {
+	padding-right: 10px;
 }

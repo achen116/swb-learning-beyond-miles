@@ -1,30 +1,38 @@
+<div class="org-banner text-center" style="background-image: url(<%= @organization.image %>)">
+	<div class="org-banner-title">
+		<h1>
+			<%= link_to(@organization.website, class: "org-title", target: "blank") do %>
+				<%= @organization.name.upcase %>
+			<% end %>
+		</h1>
+		<h4><%= @organization.headquarters.upcase %></h4>
+	</div>
+</div>
+
 <div class="container">
 
-	<h2><%= @organization.name %></h2>
-	<h4><%= @organization.headquarters %></h4>
-	<%= link_to(@organization.website, target: "blank") do %>
-		<%= @organization.website %>
-	<% end %>
-
 	<div class="row">
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img alt="<%= @organization.name %>" src="<%= @organization.image %>">
-			</div>
-		</div>
-		<div class="col-md-8">
+		<div class="content col-sm-6 col-md-8 col-md-offset-2 text-center">
 			<p><%= @organization.description %></p>
-		</div>
+			<p>Learn More:
+				<%= link_to(@organization.website, target: "blank") do %>
+					<%= @organization.website %>
+				<% end %>
+			</p>
 	</div>
 
-	<%= link_to(@organization.facebook, target: "blank") do %>
-		<img alt="facebook" src="">
-	<% end %>
-	<%= link_to(@organization.twitter, target: "blank") do %>
-		<img alt="twitter" src="">
-	<% end %>
-	<%= link_to(@organization.instagram, target: "blank") do %>
-		<img alt="instagram" src="">
-	<% end %>
+	<div class="row">
+		<div class="content social-media col-sm-6 col-md-8 col-md-offset-2 text-center">
+			<%= link_to(@organization.facebook, target: "blank") do %>
+				<i class="fa fa-facebook fa-2x"></i>
+			<% end %>
+			<%= link_to(@organization.twitter, target: "blank") do %>
+				<i class="fa fa-twitter fa-2x"></i>
+			<% end %>
+			<%= link_to(@organization.instagram, target: "blank") do %>
+				<i class="fa fa-instagram fa-2x"></i>
+			<% end %>
+		</div>
+	</div>
 
 </div>

@@ -10,6 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
@@ -19,7 +20,7 @@
   font-family: 'Oswald', sans-serif;
 }
 
-@media (min-width: 768px){
+@media (min-width: 767px){
   .seven-cols .col-md-1,
   .seven-cols .col-sm-1,
   .seven-cols .col-lg-1  {
