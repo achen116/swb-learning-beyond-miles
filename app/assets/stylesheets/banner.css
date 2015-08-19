@@ -1,0 +1,8 @@
+.banner {
+	height: 400px;
+	width: 100%;
+	background-size: 100% auto;
+	background-image: url("http://localhost:3000/imgs/aeroplan-banner.png");
+	background-repeat: no-repeat;
+	margin-bottom: 25px;
+}

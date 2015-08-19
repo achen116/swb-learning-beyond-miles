@@ -1,0 +1,25 @@
+.org-info {
+	height: 175px;
+}
+
+.org-name {
+	display: none;
+	height: 200px;
+}
+
+.org-image {
+	opacity: 0.4;
+}
+
+.donate-today {
+	margin-bottom: 35px;
+}
+
+.btn-donate {
+	background-color: rgba(194, 139, 46, 1);
+	color: white;
+}
+
+.btn-donate:hover {
+	background-color: rgba(194, 139, 46, 0.8);
+}
