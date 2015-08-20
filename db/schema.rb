@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20150811012503) do
   create_table "organizations", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
+    t.text     "miles_description"
     t.string   "headquarters"
     t.integer  "theme_id"
     t.string   "website"
@@ -26,8 +27,8 @@ ActiveRecord::Schema.define(version: 20150811012503) do
     t.string   "facebook"
     t.string   "instagram"
     t.string   "twitter"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
   end
 
   add_index "organizations", ["theme_id"], name: "index_organizations_on_theme_id", using: :btree

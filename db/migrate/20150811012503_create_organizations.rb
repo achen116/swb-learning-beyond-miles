@@ -3,6 +3,7 @@ class CreateOrganizations < ActiveRecord::Migration
     create_table :organizations do |t|
       t.string     :name
       t.text       :description
+      t.text       :miles_description
       t.string     :headquarters
       t.references :theme, index: true, foreign_key: true
       t.string     :website
