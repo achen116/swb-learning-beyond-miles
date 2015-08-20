@@ -55,13 +55,13 @@ Organization.create!(
 	instagram: "https://instagram.com")
 
 Organization.create!(
-	name: "Enlivened Living", 
+	name: "Enlivened Learning", 
 	description: "Enlivend Learning is a documentary on alternative higher education places around the world re-imagining what it is to learn, inspiring us to reflect on the purpose of education.", 
 	miles_description: "Lorem ipsum dolor sit amet, noster dolorum graecis in sea, quas corpora constituto at nec. Audire prompta an vel, id eam etiam recteque. Postea convenire vituperata cum ut. Cu sea nemore imperdiet. Ridens essent corrumpit te ius, sit at maiorum nostrum voluptua.",
 	headquarters: "Costa Rica", 
 	theme_id: 5, 
 	website: "http://enlivenedlearning.com", 
-	image: "http://beyondmiles.herokuapp.com/imgs/enlivened-learning.png", 
+	image: "http://localhost:3000/imgs/enlivened-learning.png", 
 	facebook: "https://www.facebook.com/enlivenedlearning", 
 	twitter: "https://twitter.com/tweetswb", 
 	instagram: "https://instagram.com")
@@ -109,7 +109,7 @@ Organization.create!(
 	headquarters: "Grenada", 
 	theme_id: 2, 
 	website: "http://www.groundationgrenada.com", 
-	image: "http://beyondmiles.herokuapp.com/imgs/groundation-grenada.png", 
+	image: "http://localhost:3000/imgs/groundation-grenada.png", 
 	facebook: "https://www.facebook.com/groundationgrenada", 
 	twitter: "https://twitter.com/groundationgda", 
 	instagram: "https://instagram.com")
@@ -205,7 +205,7 @@ Organization.create!(
 	headquarters: "Toronto, Canada", 
 	theme_id: 1, 
 	website: "http://www.sketch.ca", 
-	image: "http://beyondmiles.herokuapp.com/imgs/sketch.png", 
+	image: "http://localhost:3000/imgs/sketch.png", 
 	facebook: "https://www.facebook.com/sketch.toronto", 
 	twitter: "https://twitter.com/sketchtoronto", 
 	instagram: "https://instagram.com")
