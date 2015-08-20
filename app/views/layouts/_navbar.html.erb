@@ -9,18 +9,21 @@
 			  <span class="icon-bar"></span>
 			</button>
 
-			<!-- SWB Logo -->
 			<%= link_to(root_path, class: "navbar-brand") do %>
 				<img id="swb-logo" alt="swb" src="http://beyondmiles.herokuapp.com/imgs/swb-logo.png">
 			<% end %>
 		</div>
 
 		<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-			<!-- Links -->
 			<ul class="nav navbar-nav">
 				<li>
+					<%= link_to(root_path) do %>
+						HOME <span class="sr-only">(current)</span>
+					<% end %>
+				</li>
+				<li>
 					<%= link_to(about_path) do %>
-						ABOUT <span class="sr-only">(current)</span>
+						ABOUT
 					<% end %>
 				</li>
 				<li>
@@ -30,9 +33,6 @@
 					<%= link_to "DONATE", "https://beyondmiles.aeroplan.com/eng/partners/11", target: "blank" %>
 				</li>
 			</ul>
-
-			<!-- Donate Button -->
-      <!-- <button type="button" class="btn btn-default navbar-btn navbar-right">Donate Now</button> -->
 		</div>
 	</div>
 </nav>
