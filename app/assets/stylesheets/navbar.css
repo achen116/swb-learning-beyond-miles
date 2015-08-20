@@ -1,15 +1,6 @@
 nav {
 	background: #FFF;
 	font-family: 'Oswald', sans-serif;
-	height: 25px;
-}
-
-nav a {
-	color: #57b1a2;
-}
-
-nav a:hover {
-	color: #FFF;
 }
 
 #swb-logo {
