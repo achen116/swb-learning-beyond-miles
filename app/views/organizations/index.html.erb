@@ -16,7 +16,9 @@
 	<div class="row seven-cols">
 		<% @organizations.each do |org| %>
 			<div class="org-info col-md-1 thumbnail text-center" id="org-thumbnail">
-				<img class="org-image img-responsive" id="org-image" alt="<%= org.name %>" src="<%= org.image %>">
+				<%= link_to(org) do %>
+					<img class="org-image img-responsive" id="org-image" alt="<%= org.name %>" src="<%= org.image %>">
+				<% end %>
 
 				<div class="org-name-hq text-center caption">
 					<%= link_to(org, class: "org-name") do %>
