@@ -15,8 +15,13 @@
 }
 
 p {
-	font-family: 'Nixie One', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
+}
+
+p span {
+	color: #54B2A4;
+	font-weight: 800px;
 }
 
 .content {

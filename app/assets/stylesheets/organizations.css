@@ -73,6 +73,15 @@ a:hover.org-name {
 	text-decoration: none;
 }
 
+a.aeroplan-link {
+	color: #333;
+}
+
+a:hover.aeroplan-link {
+	color: #D1681A;
+	text-decoration: none;
+}
+
 p.org-hq {
 	font-family: 'Oswald', sans-serif;
 	font-size: 12px;

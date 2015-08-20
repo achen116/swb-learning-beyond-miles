@@ -4,7 +4,7 @@
 	background-size: 100% auto;
 	background-image: url("http://beyondmiles.herokuapp.com/imgs/aeroplan-banner.png");
 	background-repeat: no-repeat;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 
 @media(max-width: 766px){
