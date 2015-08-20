@@ -12,7 +12,7 @@
 <div class="container">
 
 	<div class="row">
-		<div class="content col-sm-6 col-md-8 col-md-offset-2 text-center">
+		<div class="content col-md-8 col-md-offset-2 text-center">
 			<p><%= @organization.description %></p>
 			<p><span>Miles Usage:</span>
 				<%= @organization.miles_description %>
@@ -22,10 +22,11 @@
 					<%= @organization.website %>
 				<% end %>
 			</p>
+		</div>
 	</div>
 
 	<div class="row">
-		<div class="content social-media col-sm-6 col-md-8 col-md-offset-2 text-center">
+		<div class="content social-media col-md-8 col-md-offset-2 text-center">
 			<%= link_to(@organization.facebook, target: "blank") do %>
 				<i class="fa fa-facebook fa-2x"></i>
 			<% end %>
