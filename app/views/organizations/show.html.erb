@@ -1,13 +1,13 @@
-<div class="org-banner text-center" style="background-image: url(<%= @organization.image %>)">
-	<div class="org-banner-title">
-		<h1>
-			<%= link_to(@organization.website, class: "org-title", target: "blank") do %>
-				<%= @organization.name.upcase %>
-			<% end %>
-		</h1>
-		<h4><%= @organization.headquarters.upcase %></h4>
+<%= link_to(@organization.website, class: "org-banner", target: "blank") do %>
+	<div class="org-banner text-center" style="background-image: url(<%= @organization.image %>)">
+		<div class="org-banner-title">
+			<h1>
+					<%= @organization.name.upcase %>
+			</h1>
+			<h4><%= @organization.headquarters.upcase %></h4>
+		</div>
 	</div>
-</div>
+<% end %>
 
 <div class="container">
 

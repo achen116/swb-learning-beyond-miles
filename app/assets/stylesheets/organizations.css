@@ -55,11 +55,11 @@
 	padding-top: 12px;
 }
 
-a.org-title {
+a.org-banner {
 	color: #FFF;
 }
 
-a:hover.org-title {
+a:hover.org-banner {
 	color: #FFF;
 	text-decoration: none;
 }
