@@ -3,28 +3,34 @@
 <% end %>
 
 <div class="container orgs-grid">
+  
 	<div class="row donate-today">
 		<div class="col-md-12 text-center">
 			<h3>
 				Your
 				<%= link_to("https://www.aeroplan.com", class: "aeroplan-link", target: "blank") do %>
-				Aeroplan<sup>®</sup>
+					Aeroplan<sup>®</sup>
 				<% end %>
 				Miles help us take flight!
 			</h3>
 
-      <%= link_to("https://beyondmiles.aeroplan.com/eng/partners/11", target: "blank") do %>
-      	<button type="button" class="btn" id="btn-donate">DONATE TODAY</button>
-      <% end %>
+      <%= render 'layouts/donate' %>
 		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12 text-center donate-logos">
+	    <img alt="swb-logo" src="https://beyondmiles.herokuapp.com/imgs/swb-logo.png">
+	    <img alt="swb-logo" src="http://localhost:3000/imgs/aeroplan-logo.png">
+	  </div>
 	</div>
 
 	<div class="row">
 		<div class="col-md-12 text-center">
-			<h3>Click below to see your Aeroplan Miles in action.</h3>
+			<h3>Click below to see your Aeroplan<sup>®</sup> Miles in action.</h3>
 		</div>
 	</div>
-	
+
 	<div class="row seven-cols">
 		<% @organizations.each do |org| %>
 			<div class="org-info col-md-1 thumbnail text-center" id="org-thumbnail">

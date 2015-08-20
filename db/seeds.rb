@@ -25,7 +25,7 @@ Organization.create!(
 	headquarters: "Oakland, USA", 
 	theme_id: 6, 
 	website: "http://www.blackpermaculturenetwork.org", 
-	image: "http://beyondmiles.herokuapp.com/imgs/placeholder.png", 
+	image: "http://localhost:3000/imgs/black-permaculture-network.png", 
 	facebook: "https://www.facebook.com/groups/680584661986420", 
 	twitter: "https://twitter.com/pandulce", 
 	instagram: "https://instagram.com")
@@ -121,7 +121,7 @@ Organization.create!(
 	headquarters: "Cortes Island, Canada", 
 	theme_id: 3, 
 	website: "http://www.hollyhock.ca", 
-	image: "http://beyondmiles.herokuapp.com/imgs/placeholder.png", 
+	image: "http://localhost:3000/imgs/hollyhock.png", 
 	facebook: "https://www.facebook.com//hollyhocklife", 
 	twitter: "https://twitter.com/hollyhocklife", 
 	instagram: "https://instagram.com")
@@ -145,7 +145,7 @@ Organization.create!(
 	headquarters: "Vancouver, Canada", 
 	theme_id: 6, 
 	website: "http://www.indigeneyez.com", 
-	image: "http://beyondmiles.herokuapp.com/imgs/placeholder.png", 
+	image: "http://localhost:3000/imgs/indigeneyez.png", 
 	facebook: "https://www.facebook.com/indigeneyez", 
 	twitter: "https://twitter.com/tweetswb", 
 	instagram: "https://instagram.com")

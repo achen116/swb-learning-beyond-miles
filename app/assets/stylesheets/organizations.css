@@ -101,7 +101,7 @@ p.org-hq {
 }
 
 #btn-donate {
-	background-color: #C28B2E;
+	background-color: #54B2A4;
 	color: #FFF;
 	font-size: 16px;
 	padding: 15px 20px;
@@ -109,9 +109,14 @@ p.org-hq {
 }
 
 #btn-donate:hover {
-	background-color: #54B2A4;
+	background-color: #C28B2E;
 }
 
 i {
 	padding-right: 10px;
+}
+
+.donate-logos img {
+	width: 75px;
+	opacity: 0.7;
 }
