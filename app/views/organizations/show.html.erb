@@ -24,15 +24,30 @@
 
 	<div class="row">
 		<div class="social-media col-md-8 col-md-offset-2 text-center">
-			<%= link_to(@organization.facebook, target: "blank") do %>
-				<i class="fa fa-facebook fa-2x"></i>
+			<% if @organization.facebook != "" %>
+				<%= link_to(@organization.facebook, target: "blank") do %>
+					<i class="fa fa-facebook fa-2x"></i>
+				<% end %>
+			<% else %>
+				<i class="fa fa-facebook fa-2x not-avail"></i>
 			<% end %>
-			<%= link_to(@organization.twitter, target: "blank") do %>
-				<i class="fa fa-twitter fa-2x"></i>
+
+			<% if @organization.twitter != "" %>
+				<%= link_to(@organization.twitter, target: "blank") do %>
+					<i class="fa fa-twitter fa-2x"></i>
+				<% end %>
+			<% else %>
+				<i class="fa fa-twitter fa-2x not-avail"></i>
 			<% end %>
-			<%= link_to(@organization.instagram, target: "blank") do %>
-				<i class="fa fa-instagram fa-2x"></i>
+
+			<% if @organization.instagram != "" %>
+				<%= link_to(@organization.instagram, target: "blank") do %>
+					<i class="fa fa-instagram fa-2x"></i>
+				<% end %>
+			<% else %>
+				<i class="fa fa-instagram fa-2x not-avail"></i>
 			<% end %>
+			
 		</div>
 	</div>
 

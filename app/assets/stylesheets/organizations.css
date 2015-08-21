@@ -116,6 +116,10 @@ i {
 	padding-right: 10px;
 }
 
+i.not-avail {
+	opacity: 0.5;
+}
+
 .donate-logos img {
 	width: 75px;
 	opacity: 0.7;

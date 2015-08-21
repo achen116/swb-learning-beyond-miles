@@ -15,8 +15,8 @@ Organization.create!(
 	website: "http://www.beatboxwithoutborders.org", 
 	image: "http://beyondmiles.herokuapp.com/imgs/beatbox-without-borders.png", 
 	facebook: "https://www.facebook.com/beatboxwithoutborders", 
-	twitter: "https://twitter.com/beatboxwithoutborders", 
-	instagram: "https://instagram.com")
+	twitter: "", 
+	instagram: "https://instagram.com/beatboxwithoutborders")
 
 Organization.create!(
 	name: "Black Permaculture Network", 
@@ -28,7 +28,7 @@ Organization.create!(
 	image: "http://localhost:3000/imgs/black-permaculture-network.png", 
 	facebook: "https://www.facebook.com/groups/680584661986420", 
 	twitter: "https://twitter.com/pandulce", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "BStudio Project", 
@@ -40,7 +40,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/agents-of-change.png", 
 	facebook: "https://www.facebook.com/groups/270644846370472", 
 	twitter: "https://twitter.com/kdemming", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "Collaboration Innovation", 
@@ -52,7 +52,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/rehana-tejpar.png", 
 	facebook: "https://www.facebook.com/rehanat", 
 	twitter: "https://twitter.com/rehanatejpar", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "Enlivened Learning", 
@@ -63,8 +63,8 @@ Organization.create!(
 	website: "http://enlivenedlearning.com", 
 	image: "http://localhost:3000/imgs/enlivened-learning.png", 
 	facebook: "https://www.facebook.com/enlivenedlearning", 
-	twitter: "https://twitter.com/tweetswb", 
-	instagram: "https://instagram.com")
+	twitter: "", 
+	instagram: "")
 
 Organization.create!(
 	name: "Foodscapes", 
@@ -76,7 +76,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/foodscapes.png", 
 	facebook: "https://www.facebook.com/thesoulcocina", 
 	twitter: "https://twitter.com/soulcocina", 
-	instagram: "https://instagram.com")
+	instagram: "https://instagram.com/soulcocina")
 
 Organization.create!(
 	name: "Gashanty Unity", 
@@ -88,7 +88,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/gashanti-unity.png", 
 	facebook: "https://www.facebook.com/gashantiunityto", 
 	twitter: "https://twitter.com/gashantiunity", 
-	instagram: "https://instagram.com")
+	instagram: "https://instagram.com/gashanti")
 
 Organization.create!(
 	name: "Global Opportunity", 
@@ -112,7 +112,7 @@ Organization.create!(
 	image: "http://localhost:3000/imgs/groundation-grenada.png", 
 	facebook: "https://www.facebook.com/groundationgrenada", 
 	twitter: "https://twitter.com/groundationgda", 
-	instagram: "https://instagram.com")
+	instagram: "https://instagram.com/groundationgrenada")
 
 Organization.create!(
 	name: "Hollyhock", 
@@ -124,7 +124,7 @@ Organization.create!(
 	image: "http://localhost:3000/imgs/hollyhock.png", 
 	facebook: "https://www.facebook.com//hollyhocklife", 
 	twitter: "https://twitter.com/hollyhocklife", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "Impact Hub", 
@@ -136,7 +136,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/impact-hub.png", 
 	facebook: "https://www.facebook.com/impacthuboak", 
 	twitter: "https://twitter.com/impacthub_oak", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "Indigeneyez", 
@@ -147,8 +147,8 @@ Organization.create!(
 	website: "http://www.indigeneyez.com", 
 	image: "http://localhost:3000/imgs/indigeneyez.png", 
 	facebook: "https://www.facebook.com/indigeneyez", 
-	twitter: "https://twitter.com/tweetswb", 
-	instagram: "https://instagram.com")
+	twitter: "", 
+	instagram: "")
 
 Organization.create!(
 	name: "International Center for Traditional Childbearing", 
@@ -160,7 +160,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/ictc.png", 
 	facebook: "https://www.facebook.com/groups/20977465206", 
 	twitter: "https://twitter.com/ictcmidwives", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "SERES", 
@@ -172,7 +172,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/seres.png", 
 	facebook: "https://www.facebook.com/pages/seres/294182813750", 
 	twitter: "https://twitter.com/seresproject", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "Shadeism", 
@@ -184,7 +184,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/shadeism.png", 
 	facebook: "https://www.facebook.com/shadeism", 
 	twitter: "https://twitter.com/shadeism", 
-	instagram: "https://instagram.com")
+	instagram: "https://instagram.com/refuge_productions")
 
 Organization.create!(
 	name: "Shikshantar", 
@@ -195,8 +195,8 @@ Organization.create!(
 	website: "http://www.swaraj.org/shikshantar/resisting.html", 
 	image: "http://beyondmiles.herokuapp.com/imgs/shikshantar.png", 
 	facebook: "https://www.facebook.com/pages/shikshantar-andolan/126196370730355", 
-	twitter: "https://twitter.com/tweetswb", 
-	instagram: "https://instagram.com")
+	twitter: "", 
+	instagram: "")
 
 Organization.create!(
 	name: "Sketch", 
@@ -208,7 +208,7 @@ Organization.create!(
 	image: "http://localhost:3000/imgs/sketch.png", 
 	facebook: "https://www.facebook.com/sketch.toronto", 
 	twitter: "https://twitter.com/sketchtoronto", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "Thinking Rock", 
@@ -220,7 +220,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/thinking-rock.png", 
 	facebook: "https://www.facebook.com/thinkingrockarts", 
 	twitter: "https://twitter.com/thinkingrockca", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "Whole Person Economy", 
@@ -230,9 +230,9 @@ Organization.create!(
 	theme_id: 3, 
 	website: "http://www.thewholepersoneconomy.com", 
 	image: "http://beyondmiles.herokuapp.com/imgs/whole-person-economy.png", 
-	facebook: "https://www.facebook.com/swbca", 
-	twitter: "https://twitter.com/tweetswb", 
-	instagram: "https://instagram.com")
+	facebook: "", 
+	twitter: "", 
+	instagram: "")
 
 Organization.create!(
 	name: "Whynot Theatre", 
@@ -244,7 +244,7 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/whynot-theatre.png", 
 	facebook: "https://www.facebook.com/theatrewhynot", 
 	twitter: "https://twitter.com/theatrewhynot", 
-	instagram: "https://instagram.com")
+	instagram: "")
 
 Organization.create!(
 	name: "YES!", 
@@ -256,4 +256,4 @@ Organization.create!(
 	image: "http://beyondmiles.herokuapp.com/imgs/yes.png", 
 	facebook: "https://www.facebook.com/yescommunity", 
 	twitter: "https://twitter.com/yeschangemakers", 
-	instagram: "https://instagram.com")
+	instagram: "")
