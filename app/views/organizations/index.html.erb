@@ -2,19 +2,13 @@
 	<div class="aeroplan-banner banner"></div>
 <% end %>
 
-<div class="container orgs-grid">
-  
+<div class="container">
 	<div class="row donate-today">
 		<div class="col-md-12 text-center">
 			<h3>
-				Your
-				<%= link_to("https://www.aeroplan.com", class: "aeroplan-link", target: "blank") do %>
-					Aeroplan<sup>®</sup>
-				<% end %>
-				Miles help us take flight!
+				Your <%= link_to "Aeroplan", "https://www.aeroplan.com", class: "aeroplan-link", target: "blank" %> Miles help us take flight!
 			</h3>
-
-      <%= render 'layouts/donate' %>
+	    <%= render 'layouts/donate' %>
 		</div>
 	</div>
 	
@@ -25,26 +19,30 @@
 	  </div>
 	</div>
 
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h3>Click below to see your Aeroplan<sup>®</sup> Miles in action.</h3>
-		</div>
-	</div>
+	<hr>
 
-	<div class="row seven-cols">
-		<% @organizations.each do |org| %>
-			<div class="org-info col-md-1 thumbnail text-center" id="org-thumbnail">
-				<%= link_to(org) do %>
-					<img class="org-image img-responsive" id="org-image" alt="<%= org.name %>" src="<%= org.image %>">
-				<% end %>
-
-				<div class="org-name-hq text-center caption">
-					<%= link_to(org, class: "org-name") do %>
-						<%= org.name.upcase %>
-					<% end %>
-					<p class="org-hq"><%= org.headquarters.upcase %></p>
-				</div>
+	<div class="orgs-grid">
+		<div class="row">
+			<div class="col-md-12 text-center orgs-header">
+				<h3>Click below to see your Aeroplan Miles in action.</h3>
 			</div>
-		<% end %>
+		</div>
+
+		<div class="row seven-cols">
+			<% @organizations.each do |org| %>
+				<div class="org-info col-md-1 thumbnail text-center" id="org-thumbnail">
+					<%= link_to(org) do %>
+						<img class="org-image img-responsive" id="org-image" alt="<%= org.name %>" src="<%= org.image %>">
+					<% end %>
+
+					<div class="org-name-hq text-center caption">
+						<%= link_to(org, class: "org-name") do %>
+							<%= org.name.upcase %>
+						<% end %>
+						<p class="org-hq"><%= org.headquarters.upcase %></p>
+					</div>
+				</div>
+			<% end %>
+		</div>
 	</div>
 </div>

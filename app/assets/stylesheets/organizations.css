@@ -97,14 +97,14 @@ p.org-hq {
 }
 
 .donate-today {
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
 #btn-donate {
 	background-color: #54B2A4;
 	color: #FFF;
-	font-size: 16px;
-	padding: 15px 20px;
+	font-size: 20px;
+	padding: 20px 50px;
 	border-radius: 0px;
 }
 
@@ -119,4 +119,10 @@ i {
 .donate-logos img {
 	width: 75px;
 	opacity: 0.7;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.orgs-header {
+	margin-bottom: 7px;
 }
