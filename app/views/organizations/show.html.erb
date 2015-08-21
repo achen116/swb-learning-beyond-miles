@@ -22,8 +22,14 @@
 		</div>
 	</div>
 
+	
+
 	<div class="row">
 		<div class="social-media col-md-8 col-md-offset-2 text-center">
+			<% if @organization.logo != "" %>
+				<img class="img-responsive" id="org-logo" alt="<%= @organization.name %>" src="<%= @organization.logo %>">
+			<% end %>
+
 			<% if @organization.facebook != "" %>
 				<%= link_to(@organization.facebook, target: "blank") do %>
 					<i class="fa fa-facebook fa-2x"></i>
@@ -46,10 +52,6 @@
 				<% end %>
 			<% else %>
 				<i class="fa fa-instagram fa-2x not-avail"></i>
-			<% end %>
-			
-			<% if @organization.logo != "" %>
-				<img alt="<%= @organization.name %>" src="<%= @organization.logo %>">
 			<% end %>
 
 		</div>
