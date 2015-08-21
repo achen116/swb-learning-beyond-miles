@@ -1,9 +1,9 @@
 footer {
-	/*margin-top: 75px;*/
+	margin-top: 75px;
 	padding-top: 18px;
-  background-color: #333;
+  background-color: #D1D2D4;
   font-family: 'Oswald', sans-serif;
-  color: white;
+  /*color: white;*/
 }
 
 footer p {
