@@ -14,6 +14,7 @@ Organization.create!(
 	theme_id: 1, 
 	website: "http://www.beatboxwithoutborders.org", 
 	image: "http://beyondmiles.herokuapp.com/imgs/beatbox-without-borders.png", 
+	logo: "http://localhost:3000/imgs/beatbox-without-borders-logo.png",
 	facebook: "https://www.facebook.com/beatboxwithoutborders", 
 	twitter: "", 
 	instagram: "https://instagram.com/beatboxwithoutborders")
@@ -26,6 +27,7 @@ Organization.create!(
 	theme_id: 6, 
 	website: "http://www.blackpermaculturenetwork.org", 
 	image: "http://localhost:3000/imgs/black-permaculture-network.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/groups/680584661986420", 
 	twitter: "https://twitter.com/pandulce", 
 	instagram: "")
@@ -38,6 +40,7 @@ Organization.create!(
 	theme_id: 3, 
 	website: "http://www.bstudioproject.com", 
 	image: "http://beyondmiles.herokuapp.com/imgs/agents-of-change.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/groups/270644846370472", 
 	twitter: "https://twitter.com/kdemming", 
 	instagram: "")
@@ -50,6 +53,7 @@ Organization.create!(
 	theme_id: 1, 
 	website: "https://collaborationinnovation.wordpress.com", 
 	image: "http://beyondmiles.herokuapp.com/imgs/rehana-tejpar.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/rehanat", 
 	twitter: "https://twitter.com/rehanatejpar", 
 	instagram: "")
@@ -62,6 +66,7 @@ Organization.create!(
 	theme_id: 5, 
 	website: "http://enlivenedlearning.com", 
 	image: "http://localhost:3000/imgs/enlivened-learning.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/enlivenedlearning", 
 	twitter: "", 
 	instagram: "")
@@ -74,6 +79,7 @@ Organization.create!(
 	theme_id: 6, 
 	website: "http://www.soulcocina.org", 
 	image: "http://beyondmiles.herokuapp.com/imgs/foodscapes.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/thesoulcocina", 
 	twitter: "https://twitter.com/soulcocina", 
 	instagram: "https://instagram.com/soulcocina")
@@ -86,6 +92,7 @@ Organization.create!(
 	theme_id: 2, 
 	website: "http://www.gashantiunity.ca", 
 	image: "http://beyondmiles.herokuapp.com/imgs/gashanti-unity.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/gashantiunityto", 
 	twitter: "https://twitter.com/gashantiunity", 
 	instagram: "https://instagram.com/gashanti")
@@ -98,6 +105,7 @@ headquarters: "Santiago, Chile + Istanbul, Turkey + Bangkok, Thailand",
 theme_id: 3, 
 website: "http://www.the-go-project.com", 
 image: "http://beyondmiles.herokuapp.com/imgs/go-project.png", 
+logo: "http://localhost:3000/imgs/go-project-logo.png",
 facebook: "https://www.facebook.com/thegoproject", 
 twitter: "https://twitter.com/the_goproject", 
 instagram: "https://instagram.com/the_goproject")
@@ -110,6 +118,7 @@ Organization.create!(
 	theme_id: 2, 
 	website: "http://www.groundationgrenada.com", 
 	image: "http://localhost:3000/imgs/groundation-grenada.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/groundationgrenada", 
 	twitter: "https://twitter.com/groundationgda", 
 	instagram: "https://instagram.com/groundationgrenada")
@@ -122,6 +131,7 @@ Organization.create!(
 	theme_id: 3, 
 	website: "http://www.hollyhock.ca", 
 	image: "http://localhost:3000/imgs/hollyhock.png", 
+	logo: "",
 	facebook: "https://www.facebook.com//hollyhocklife", 
 	twitter: "https://twitter.com/hollyhocklife", 
 	instagram: "")
@@ -134,6 +144,7 @@ Organization.create!(
 	theme_id: 4, 
 	website: "https://oakland.impacthub.net", 
 	image: "http://beyondmiles.herokuapp.com/imgs/impact-hub.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/impacthuboak", 
 	twitter: "https://twitter.com/impacthub_oak", 
 	instagram: "")
@@ -146,6 +157,7 @@ Organization.create!(
 	theme_id: 6, 
 	website: "http://www.indigeneyez.com", 
 	image: "http://localhost:3000/imgs/indigeneyez.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/indigeneyez", 
 	twitter: "", 
 	instagram: "")
@@ -158,6 +170,7 @@ Organization.create!(
 	theme_id: 5, 
 	website: "http://www.ictcmidwives.org", 
 	image: "http://beyondmiles.herokuapp.com/imgs/ictc.png", 
+	logo: "http://localhost:3000/imgs/ictc-logo.png",
 	facebook: "https://www.facebook.com/groups/20977465206", 
 	twitter: "https://twitter.com/ictcmidwives", 
 	instagram: "")
@@ -170,6 +183,7 @@ Organization.create!(
 	theme_id: 3, 
 	website: "http://www.seres.org", 
 	image: "http://beyondmiles.herokuapp.com/imgs/seres.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/pages/seres/294182813750", 
 	twitter: "https://twitter.com/seresproject", 
 	instagram: "")
@@ -182,6 +196,7 @@ Organization.create!(
 	theme_id: 2, 
 	website: "http://www.shadeism.com", 
 	image: "http://beyondmiles.herokuapp.com/imgs/shadeism.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/shadeism", 
 	twitter: "https://twitter.com/shadeism", 
 	instagram: "https://instagram.com/refuge_productions")
@@ -194,6 +209,7 @@ Organization.create!(
 	theme_id: 5, 
 	website: "http://www.swaraj.org/shikshantar/resisting.html", 
 	image: "http://beyondmiles.herokuapp.com/imgs/shikshantar.png", 
+	logo: "",
 	facebook: "https://www.facebook.com/pages/shikshantar-andolan/126196370730355", 
 	twitter: "", 
 	instagram: "")
@@ -206,6 +222,7 @@ Organization.create!(
 	theme_id: 1, 
 	website: "http://www.sketch.ca", 
 	image: "http://localhost:3000/imgs/sketch.png", 
+	logo: "http://localhost:3000/imgs/sketch-logo.png",
 	facebook: "https://www.facebook.com/sketch.toronto", 
 	twitter: "https://twitter.com/sketchtoronto", 
 	instagram: "")
@@ -218,6 +235,7 @@ Organization.create!(
 	theme_id: 5, 
 	website: "http://www.thinkingrock.ca", 
 	image: "http://beyondmiles.herokuapp.com/imgs/thinking-rock.png", 
+	logo: "http://localhost:3000/imgs/thinking-rock-logo.png",
 	facebook: "https://www.facebook.com/thinkingrockarts", 
 	twitter: "https://twitter.com/thinkingrockca", 
 	instagram: "")
@@ -230,6 +248,7 @@ Organization.create!(
 	theme_id: 3, 
 	website: "http://www.thewholepersoneconomy.com", 
 	image: "http://beyondmiles.herokuapp.com/imgs/whole-person-economy.png", 
+	logo: "",
 	facebook: "", 
 	twitter: "", 
 	instagram: "")
@@ -242,6 +261,7 @@ Organization.create!(
 	theme_id: 1, 
 	website: "http://www.theatrewhynot.org", 
 	image: "http://beyondmiles.herokuapp.com/imgs/whynot-theatre.png", 
+	logo: "http://localhost:3000/imgs/whynot-theatre-logo.png",
 	facebook: "https://www.facebook.com/theatrewhynot", 
 	twitter: "https://twitter.com/theatrewhynot", 
 	instagram: "")
@@ -254,6 +274,7 @@ Organization.create!(
 	theme_id: 4, 
 	website: "http://www.yesworld.org", 
 	image: "http://beyondmiles.herokuapp.com/imgs/yes.png", 
+	logo: "http://localhost:3000/imgs/yes-logo.png",
 	facebook: "https://www.facebook.com/yescommunity", 
 	twitter: "https://twitter.com/yeschangemakers", 
 	instagram: "")

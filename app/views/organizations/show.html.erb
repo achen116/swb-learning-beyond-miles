@@ -48,6 +48,10 @@
 				<i class="fa fa-instagram fa-2x not-avail"></i>
 			<% end %>
 			
+			<% if @organization.logo != "" %>
+				<img alt="<%= @organization.name %>" src="<%= @organization.logo %>">
+			<% end %>
+
 		</div>
 	</div>
 
