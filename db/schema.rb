@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20150811012503) do
     t.integer  "theme_id"
     t.string   "website"
     t.string   "image"
+    t.string   "logo"
     t.string   "facebook"
     t.string   "instagram"
     t.string   "twitter"

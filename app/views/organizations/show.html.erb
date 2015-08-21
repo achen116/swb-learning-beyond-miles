@@ -14,9 +14,6 @@
 	<div class="row">
 		<div class="content col-md-8 col-md-offset-2 text-center">
 			<p><%= @organization.description %></p>
-			<p><span>Miles Usage:</span>
-				<%= @organization.miles_description %>
-			</p>
 			<p>Learn More:
 				<%= link_to(@organization.website, target: "blank") do %>
 					<%= @organization.website %>
@@ -25,18 +22,54 @@
 		</div>
 	</div>
 
+	
+
 	<div class="row">
-		<div class="content social-media col-md-8 col-md-offset-2 text-center">
-			<%= link_to(@organization.facebook, target: "blank") do %>
-				<i class="fa fa-facebook fa-2x"></i>
+		<div class="social-media col-md-8 col-md-offset-2 text-center">
+			<% if @organization.logo != "" %>
+				<img class="img-responsive" id="org-logo" alt="<%= @organization.name %>" src="<%= @organization.logo %>">
 			<% end %>
-			<%= link_to(@organization.twitter, target: "blank") do %>
-				<i class="fa fa-twitter fa-2x"></i>
+
+			<% if @organization.facebook != "" %>
+				<%= link_to(@organization.facebook, target: "blank") do %>
+					<i class="fa fa-facebook fa-2x"></i>
+				<% end %>
+			<% else %>
+				<i class="fa fa-facebook fa-2x not-avail"></i>
 			<% end %>
-			<%= link_to(@organization.instagram, target: "blank") do %>
-				<i class="fa fa-instagram fa-2x"></i>
+
+			<% if @organization.twitter != "" %>
+				<%= link_to(@organization.twitter, target: "blank") do %>
+					<i class="fa fa-twitter fa-2x"></i>
+				<% end %>
+			<% else %>
+				<i class="fa fa-twitter fa-2x not-avail"></i>
 			<% end %>
+
+			<% if @organization.instagram != "" %>
+				<%= link_to(@organization.instagram, target: "blank") do %>
+					<i class="fa fa-instagram fa-2x"></i>
+				<% end %>
+			<% else %>
+				<i class="fa fa-instagram fa-2x not-avail"></i>
+			<% end %>
+
 		</div>
 	</div>
 
+	<hr>
+	
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 text-center">
+			<p>
+				<%= @organization.miles_description %>
+			</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="content col-md-8 col-md-offset-2 text-center">
+			<%= render 'layouts/donate' %>
+		</div>
+	</div>
 </div>

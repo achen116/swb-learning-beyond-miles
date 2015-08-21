@@ -8,6 +8,7 @@ class CreateOrganizations < ActiveRecord::Migration
       t.references :theme, index: true, foreign_key: true
       t.string     :website
       t.string     :image
+      t.string     :logo
       t.string     :facebook
       t.string     :instagram
       t.string     :twitter
