@@ -6,3 +6,8 @@
 .sm-link {
 	margin-bottom: 5px;
 }
+
+.dropdown-menu.sm-dropdown {
+	min-width: 125px;
+	opacity: 0.85;
+}

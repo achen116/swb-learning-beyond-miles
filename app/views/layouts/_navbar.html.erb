@@ -14,7 +14,7 @@
 			<% end %>
 		</div>
 
-		<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li>
 					<%= link_to(root_path) do %>
@@ -29,10 +29,38 @@
 				<li>
 					<%= link_to "CONTACT", contact_path %>
 				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
 				<li>
 					<%= link_to "DONATE", "https://beyondmiles.aeroplan.com/eng/partners/11", target: "blank" %>
+				</li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SHARE<span class="caret"></span></a>
+				  <ul class="dropdown-menu sm-dropdown">
+				    <li class="text-center">
+				    	<div class="fb-share-button" data-href="http://beyondmiles.swb.ca/" data-layout="button"></div>
+				    </li>
+				    <li role="separator" class="divider"></li>
+				    <li class="text-center">
+				    	<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://beyondmiles.swb.ca/" data-text="Help #swbees take flight! Donate your @aeroplan miles this week to @tweetswb and @beyondmiles will match them:" data-count="none">Tweet</a>
+				    	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				    </li>
+				  </ul>
 				</li>
 			</ul>
 		</div>
 	</div>
 </nav>
+
+
+
+<!-- <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</li> -->
