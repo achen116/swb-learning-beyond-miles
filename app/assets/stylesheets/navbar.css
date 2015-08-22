@@ -6,3 +6,10 @@ nav {
 #swb-logo {
 	width: 40px;
 }
+
+li.sm-link {
+	margin-right: 5px;
+	padding-top: 15px;
+	/*opacity: 0.8;*/
+	color: #777;
+}
