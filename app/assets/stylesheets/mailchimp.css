@@ -1,0 +1,18 @@
+.mailchimp {
+	margin-bottom: 25px;
+}
+
+.btn-mailchimp {
+	border-radius: 0px;
+	background-color: #C28B2E;
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+}
+
+.form-mailchimp {
+	padding: 3px 35px 7.5px 35px;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+}
