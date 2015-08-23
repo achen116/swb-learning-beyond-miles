@@ -8,8 +8,12 @@ nav {
 }
 
 li.fb-link {
-	padding-top: 15px;
+	/*padding-top: 15px;*/
 	color: #777;
+}
+
+li.fb-link a {
+	height: 0px;
 }
 
 li.tw-link i {
