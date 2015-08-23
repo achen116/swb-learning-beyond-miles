@@ -1,7 +1,7 @@
 .page-banner {
 	background-image: url('http://beyondmiles.herokuapp.com/imgs/org-banner.png');
 	height: 300px;
-	padding-top: 120px;
+	/*padding-top: 120px;*/
 	margin-bottom: 35px;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 @media(max-width: 767px){
 	.page-banner { 
 		height: 150px;
-		padding-top: 40px;
+		padding-top: 20px;
 	}
 }
 
@@ -25,7 +25,7 @@ p span {
 }
 
 .content {
-	margin-bottom: 25x;
+	margin-bottom: 25px;
 }
 
 #btn-contact {
