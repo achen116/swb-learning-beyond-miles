@@ -1,6 +1,6 @@
 (function(){
 
-	$(document).on("page:change", function() {
+	$(document).on("ready", function() {
 		hover();
 
 	});
