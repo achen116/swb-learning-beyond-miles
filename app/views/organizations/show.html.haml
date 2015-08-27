@@ -1,0 +1,47 @@
+=link_to(@organization.website, class: "org-banner", target: "blank") do
+	%div.org-banner.text-center{style: "background-image: url(#{@organization.image})"}
+		%div.org-banner-title
+			%h1= @organization.name.upcase
+			%h4= @organization.headquarters.upcase
+
+%div.container
+	%div.row
+		%div.content.col-md-8.col-md-offset-2.text-center
+			%p= @organization.description
+			%p
+				Learn More:
+				=link_to(@organization.website, target: "blank") do
+					=@organization.website
+
+	%div.row
+		%div.social-media.col-md-8.col-md-offset-2.text-center
+			-if @organization.logo != ""
+				%img.img-responsive#org-logo{alt: @organization.name, src: @organization.logo}
+			
+			-if @organization.facebook != ""
+				=link_to(@organization.facebook, target: "blank") do
+					%i.fa.fa-facebook.fa-2x
+			-else
+				%i.fa.fa-facebook.fa-2x.not-avail
+			
+			-if @organization.twitter != ""
+				=link_to(@organization.twitter, target: "blank") do
+					%i.fa.fa-twitter.fa-2x
+			-else
+				%i.fa.fa-twitter.fa-2x.not-avail
+
+			-if @organization.instagram != ""
+				=link_to(@organization.instagram, target: "blank") do
+					%i.fa.fa-instagram.fa-2x
+			-else
+				%i.fa.fa-instagram.fa-2x.not-avail
+
+	%hr
+
+	%div.row
+		%div.col-md-8.col-md-offset-2.text-center
+			%p= @organization.miles_description
+
+	%div.row
+		%div.content.col-md-8.col-md-offset-2.text-center
+			=render 'layouts/donate'
