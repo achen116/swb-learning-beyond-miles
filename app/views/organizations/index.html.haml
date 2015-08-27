@@ -1,0 +1,37 @@
+=link_to("https://beyondmiles.aeroplan.com/eng/partners/11", target: "blank") do
+	%div.aeroplan-banner.banner
+
+%div.container
+	%div.row.donate-today
+		%div.col-md-12.text-center
+			%h3
+				Your
+				=link_to "Aeroplan", "https://www.aeroplan.com", class: "aeroplan-link", target: "blank"
+				Miles help us take flight!
+
+			=render 'layouts/donate'
+
+	%div.row
+		%div.col-md-12.text-center.donate-logos
+			%img{alt: "swb-logo", src: "https://beyondmiles.herokuapp.com/imgs/swb-logo.png"}
+			%img{alt: "swb-logo", src: "http://beyondmiles.herokuapp.com/imgs/aeroplan-logo.png"}
+
+	%hr
+
+	%div.orgs-grid
+		%div.row
+			%div.col-md-12.text-center.orgs-header
+				%h3 Click below to see your Aeroplan Miles in action.
+
+		%div.row.seven-cols
+			-@organizations.each do |org|
+				%div.org-info.col-md-1.thumbnail.text-center#org-thumbnail
+					=link_to(org) do
+						%img.org-image.img-responsive#org-image{alt: org.name, src: org.image}
+
+					%div.org-name-hq.text-center.caption
+						=link_to(org, class: "org-name") do
+							=org.name.upcase
+						%p.org-hq= org.headquarters.upcase
+
+		=render 'layouts/mailchimp'
