@@ -4,7 +4,7 @@
 
 .btn-mailchimp {
 	border-radius: 0px;
-	background-color: #C28B2E;
+	background-color: $orange;
 	color: #FFF;
 	font-family: 'Oswald', sans-serif;
 }

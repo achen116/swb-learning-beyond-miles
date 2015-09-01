@@ -5,12 +5,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$orange: #C28B2E;
+$teal: #54B2A4;
+
 @import "banner";
 @import "beyondmiles";
 @import "footer";
 @import "mailchimp";
 @import "navbar";
 @import "organizations";
+
 
 
 #page-wrap {

@@ -27,7 +27,7 @@ p {
 }
 
 p span {
-	color: #54B2A4;
+	color: $teal;
 	font-weight: 800px;
 }
 
@@ -36,7 +36,7 @@ p span {
 }
 
 #btn-contact {
-	background-color: #54B2A4;
+	background-color: $teal;
 	color: #FFF;
 	font-size: 15px;
 	padding: 10px 15px;

@@ -69,7 +69,7 @@ a.org-name {
 }
 
 a:hover.org-name {
-	color: #54B2A4;
+	color: $teal;
 	text-decoration: none;
 }
 
@@ -101,7 +101,7 @@ p.org-hq {
 }
 
 #btn-donate {
-	background-color: #54B2A4;
+	background-color: $teal;
 	color: #FFF;
 	font-size: 20px;
 	padding: 20px 50px;
@@ -109,7 +109,7 @@ p.org-hq {
 }
 
 #btn-donate:hover {
-	background-color: #C28B2E;
+	background-color: $orange;
 }
 
 i {
