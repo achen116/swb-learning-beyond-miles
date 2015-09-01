@@ -18,8 +18,8 @@
 	@extend .button;
 	font-size: 15px;
 	padding: 10px 15px;
-}
 
-#btn-contact:hover {
-	color: #000;
+	&:hover {
+		color: #000;
+	}
 }

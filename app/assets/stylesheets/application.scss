@@ -32,6 +32,10 @@ p {
   }
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 @import "banner";
 @import "beyondmiles";
 @import "footer";

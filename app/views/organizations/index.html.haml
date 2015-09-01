@@ -25,13 +25,13 @@
 
 		%div.row.seven-cols
 			-@organizations.each do |org|
-				%div.org-info.col-md-1.thumbnail.text-center#org-thumbnail
+				%div.col-md-1.thumbnail.text-center#org-thumbnail
 					=link_to(org) do
-						%img.org-image.img-responsive#org-image{alt: org.name, src: org.image}
+						%img.org-image.img-responsive{alt: org.name, src: org.image}
 
 					%div.org-name-hq.text-center.caption
 						=link_to(org, class: "org-name") do
 							=org.name.upcase
-						%p.org-hq= org.headquarters.upcase
+						%p= org.headquarters.upcase
 
 		=render 'layouts/mailchimp'

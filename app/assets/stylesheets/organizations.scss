@@ -1,6 +1,28 @@
+// LINKS
+a.org-name {
+	color: #000;
+
+	&:hover {
+		color: $teal;
+	}
+}
+
+a.aeroplan-link {
+	color: #333;
+
+	&:hover {
+		color: #D1681A;
+	}
+}
+
+// BANNER
 .org-banner {
 	@extend .banner;
 	background-position-y: -125px;
+
+	@media(max-width: 767px){
+		background-position-y: 0px;
+	}
 }
 
 .org-banner-title {
@@ -8,86 +30,47 @@
 	padding-bottom: 125px;
 	background-color: rgba(0,0,0,0.4);
 	color: #FFF;
-}
 
-@media(max-width: 767px){
-	.org-banner {
-		background-position-y: 0px;
-	}
-	.org-banner-title {
+	@media(max-width: 767px){
 		padding-top: 65px;
 		padding-bottom: 65px;
 	}
 }
 
-.org-info {
-	height: 200px;
-}
+// ORG THUMBNAILS
 
-@media(max-width: 434px){
-  #org-thumbnail {
+#org-thumbnail {
+	height: 200px;
+
+	@media(max-width: 434px){
   	height: 350px;
-  }
-}
+	}
 
-@media(min-width: 435px) and (max-width: 534px) {
-	#org-thumbnail {
+	@media(min-width: 435px) and (max-width: 534px) {
   	height: 400px;
-  }
-}
+	}
 
-@media(min-width: 535px) and (max-width: 766px) {
-	#org-thumbnail {
+	@media(min-width: 535px) and (max-width: 766px) {
   	height: 550px;
-  }
-}
+	}
 
-@media(min-width: 767px) and (max-width: 992px) {
-	#org-thumbnail {
+	@media(min-width: 767px) and (max-width: 992px) {
   	height: 600px;
-  }
-}
-
-.org-name-hq {
-	height: 200px;
-	padding-top: 12px;
-}
-
-a.org-banner {
-	color: #FFF;
-}
-
-a:hover.org-banner {
-	color: #FFF;
-	text-decoration: none;
-}
-
-a.org-name {
-	color: #000;
-}
-
-a:hover.org-name {
-	color: $teal;
-	text-decoration: none;
-}
-
-a.aeroplan-link {
-	color: #333;
-}
-
-a:hover.aeroplan-link {
-	color: #D1681A;
-	text-decoration: none;
-}
-
-p.org-hq {
-	font-family: $oswald;
-	font-size: 12px;
-	color: #555;
+	}
 }
 
 .org-image {
 	opacity: 0.4;
+}
+
+.org-name-hq {
+	padding-top: 12px;
+
+	p {
+		font-family: $oswald;
+		font-size: 12px;
+		color: #555;
+	}
 }
 
 .content {
