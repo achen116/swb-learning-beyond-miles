@@ -22,7 +22,7 @@
 }
 
 p {
-	font-family: 'Raleway', sans-serif;
+	font-family: $raleway;
 	font-size: 16px;
 }
 

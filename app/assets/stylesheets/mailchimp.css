@@ -6,7 +6,7 @@
 	border-radius: 0px;
 	background-color: $orange;
 	color: #FFF;
-	font-family: 'Oswald', sans-serif;
+	font-family: $oswald;
 }
 
 .form-mailchimp {
@@ -14,5 +14,5 @@
 	border: 1px solid #CCC;
 	border-radius: 4px;
 	font-size: 14px;
-	font-family: 'Oswald', sans-serif;
+	font-family: $oswald;
 }

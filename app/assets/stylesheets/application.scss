@@ -7,6 +7,8 @@
 
 $orange: #C28B2E;
 $teal: #54B2A4;
+$raleway: 'Raleway', sans-serif;
+$oswald: 'Oswald', sans-serif;
 
 @import "banner";
 @import "beyondmiles";
@@ -19,7 +21,7 @@ $teal: #54B2A4;
 
 #page-wrap {
   margin-top: 50px;
-  font-family: 'Oswald', sans-serif;
+  font-family: $oswald;
 }
 
 @media (min-width: 767px){
