@@ -1,6 +1,6 @@
 %nav.navbar.navbar-default.navbar-fixed-top
-	%div.container#navbar
-		%div.navbar-header
+	.container#navbar
+		.navbar-header
 			%button.navbar-toggle.collapsed{type: "button", data: {toggle: "collapse", target: "#bs-example-navbar-collapse-1"}, aria: {expanded: "false"}}
 				%span.sr-only toggle navigation
 				%span.icon-bar
@@ -9,7 +9,7 @@
 			=link_to(root_path, class: "navbar-brand") do
 				%img#swb-logo{alt: "swb", src: "http://beyondmiles.herokuapp.com/imgs/swb-logo.png"}
 
-		%div.collapse.navbar-collapse#bs-example-navbar-collapse-1
+		.collapse.navbar-collapse#bs-example-navbar-collapse-1
 			%ul.nav.navbar-nav.links
 				%li
 					=link_to(root_path) do
@@ -26,6 +26,6 @@
 					=link_to("https://beyondmiles.aeroplan.com/eng/partners/11", target: "blank") do
 						DONATE
 				%li.sm-link
-					%div.fb-share-button{data: {href: "http://beyondmiles.swb.ca/", layout: "button"}}
+					.fb-share-button{data: {href: "http://beyondmiles.swb.ca/", layout: "button"}}
 				%li.sm-link
 					%a.twitter-share-button{href: "https://twitter.com/share", data: {url: "http://beyondmiles.swb.ca/", text: "Help #swbees take flight! Donate your @aeroplan miles this week to @tweetswb and @beyondmiles will match them:", count: "none"}}

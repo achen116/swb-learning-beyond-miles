@@ -1,9 +1,9 @@
 =link_to("https://beyondmiles.aeroplan.com/eng/partners/11", target: "blank") do
-	%div.aeroplan-banner
+	.aeroplan-banner
 
-%div.container
-	%div.row
-		%div.col-md-12.text-center
+.container
+	.row
+		.col-md-12.text-center
 			%h3
 				Your
 				=link_to "Aeroplan", "https://www.aeroplan.com", class: "aeroplan-link", target: "blank"
@@ -11,24 +11,24 @@
 
 			=render 'layouts/donate'
 
-	%div.row
-		%div.col-md-12.text-center
+	.row
+		.col-md-12.text-center
 			%img.donate-logos{alt: "swb-logo", src: "https://beyondmiles.herokuapp.com/imgs/swb-logo.png"}
 			%img.donate-logos{alt: "swb-logo", src: "http://beyondmiles.herokuapp.com/imgs/aeroplan-logo.png"}
 
 	%hr
 
-	%div.row
-		%div.col-md-12.text-center.orgs-header
+	.row
+		.col-md-12.text-center.orgs-header
 			%h3 Click below to see your Aeroplan Miles in action.
 
-	%div.row.seven-cols
+	.row.seven-cols
 		-@organizations.each do |org|
-			%div.col-md-1.thumbnail.text-center#org-thumbnail
+			.col-md-1.thumbnail.text-center#org-thumbnail
 				=link_to(org) do
 					%img.org-image.img-responsive{alt: org.name, src: org.image}
 
-				%div.org-name-hq.text-center.caption
+				.org-name-hq.text-center.caption
 					=link_to(org, class: "org-name") do
 						=org.name.upcase
 					%p= org.headquarters.upcase

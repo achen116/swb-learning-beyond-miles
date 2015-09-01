@@ -1,20 +1,20 @@
 =link_to(@organization.website, class: "org-banner", target: "blank") do
-	%div.org-banner.text-center{style: "background-image: url(#{@organization.image})"}
-		%div.org-banner-title
+	.org-banner.text-center{style: "background-image: url(#{@organization.image})"}
+		.org-banner-title
 			%h1= @organization.name.upcase
 			%h4= @organization.headquarters.upcase
 
-%div.container
-	%div.row
-		%div.content.col-md-8.col-md-offset-2.text-center
+.container
+	.row
+		.content.col-md-8.col-md-offset-2.text-center
 			%p= @organization.description
 			%p
 				Learn More:
 				=link_to(@organization.website, target: "blank") do
 					=@organization.website
 
-	%div.row
-		%div.social-media.col-md-8.col-md-offset-2.text-center
+	.row
+		.social-media.col-md-8.col-md-offset-2.text-center
 			-if @organization.logo != ""
 				%img.img-responsive#org-logo{alt: @organization.name, src: @organization.logo}
 			
@@ -38,10 +38,10 @@
 
 	%hr
 
-	%div.row
-		%div.col-md-8.col-md-offset-2.text-center
+	.row
+		.col-md-8.col-md-offset-2.text-center
 			%p= @organization.miles_description
 
-	%div.row
-		%div.content.col-md-8.col-md-offset-2.text-center
+	.row
+		.content.col-md-8.col-md-offset-2.text-center
 			=render 'layouts/donate'
