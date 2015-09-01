@@ -99,15 +99,13 @@ p.org-hq {
 }
 
 #btn-donate {
-	background-color: $teal;
-	color: #FFF;
+	@extend .button;
 	font-size: 20px;
 	padding: 20px 50px;
-	border-radius: 0px;
-}
 
-#btn-donate:hover {
-	background-color: $orange;
+	&:hover {
+		background-color: $orange;
+	}
 }
 
 i {

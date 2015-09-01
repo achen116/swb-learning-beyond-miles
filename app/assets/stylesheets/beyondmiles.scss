@@ -15,11 +15,9 @@
 }
 
 #btn-contact {
-	background-color: $teal;
-	color: #FFF;
+	@extend .button;
 	font-size: 15px;
 	padding: 10px 15px;
-	border-radius: 0px;
 }
 
 #btn-contact:hover {
