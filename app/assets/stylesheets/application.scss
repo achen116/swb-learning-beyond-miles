@@ -16,14 +16,22 @@ $oswald: 'Oswald', sans-serif;
   margin-bottom: 35px;
 }
 
+p {
+  font-family: $raleway;
+  font-size: 16px;
+
+  span {
+    color: $teal;
+    font-weight: 800px;
+  }
+}
+
 @import "banner";
 @import "beyondmiles";
 @import "footer";
 @import "mailchimp";
 @import "navbar";
 @import "organizations";
-
-
 
 #page-wrap {
   margin-top: 50px;
