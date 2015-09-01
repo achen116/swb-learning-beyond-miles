@@ -7,14 +7,6 @@ a.org-name {
 	}
 }
 
-a.aeroplan-link {
-	color: #333;
-
-	&:hover {
-		color: #D1681A;
-	}
-}
-
 // BANNER
 .org-banner {
 	@extend .banner;
@@ -38,9 +30,13 @@ a.aeroplan-link {
 }
 
 // ORG THUMBNAILS
+.orgs-header {
+	margin-bottom: 7px;
+}
 
 #org-thumbnail {
 	height: 200px;
+	margin-top: 7px;
 
 	@media(max-width: 434px){
   	height: 350px;
@@ -73,41 +69,46 @@ a.aeroplan-link {
 	}
 }
 
-.donate-today {
-	margin-bottom: 15px;
+// ORG THUMBNAIL 7 COLS
+@media (min-width: 767px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
 }
 
-#btn-donate {
-	@extend .button;
-	font-size: 20px;
-	padding: 20px 50px;
-
-	&:hover {
-		background-color: $orange;
-	}
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
 }
 
-i {
-	padding-right: 10px;
+/* @media usage for large screens */    
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
 }
 
-i.not-avail {
-	opacity: 0.5;
-}
-
-.donate-logos img {
-	width: 75px;
-	opacity: 0.7;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-
-.orgs-header {
-	margin-bottom: 7px;
-}
-
+// ORG SHOW
 #org-logo {
 	width: 150px;
 	margin-right: 20px;
 	display: inline;
+}
+
+i {
+	padding-right: 10px;
+
+	&.not-avail {
+		opacity: 0.5;
+	}
 }

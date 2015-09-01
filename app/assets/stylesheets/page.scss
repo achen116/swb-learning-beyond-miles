@@ -1,0 +1,40 @@
+$orange: #C28B2E;
+$teal: #54B2A4;
+$raleway: 'Raleway', sans-serif;
+$oswald: 'Oswald', sans-serif;
+
+
+#page-wrap {
+  margin-top: 50px;
+  font-family: $oswald;
+}
+
+.content {
+  margin-bottom: 25px
+}
+
+p {
+  font-family: $raleway;
+  font-size: 16px;
+
+  span {
+    color: $teal;
+    font-weight: 800px;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.banner {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-bottom: 35px;
+}
+
+.button {
+  background-color: $teal;
+  color: #FFF;
+  border-radius: 0px;
+}

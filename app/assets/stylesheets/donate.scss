@@ -1,0 +1,25 @@
+a.aeroplan-link {
+	color: #333;
+
+	&:hover {
+		color: #D1681A;
+	}
+}
+
+#btn-donate {
+	@extend .button;
+	font-size: 20px;
+	padding: 20px 50px;
+
+	&:hover {
+		background-color: $orange;
+	}
+}
+
+.donate-logos {
+	width: 75px;
+	opacity: 0.7;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
