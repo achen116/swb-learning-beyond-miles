@@ -1,8 +1,6 @@
 .org-banner {
-	background-size: 100% auto;
+	@extend .banner;
 	background-position-y: -125px;
-	background-repeat: no-repeat;
-	margin-bottom: 35px;
 }
 
 .org-banner-title {

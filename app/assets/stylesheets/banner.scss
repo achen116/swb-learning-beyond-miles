@@ -1,21 +1,15 @@
 .aeroplan-banner {
-	height: 500px;
-	width: 100%;
-	background-size: 100% auto;
-	background-image: url("http://beyondmiles.herokuapp.com/imgs/aeroplan-banner.png");
-	background-repeat: no-repeat;
+	@extend .banner;
+	background-image: url('http://beyondmiles.herokuapp.com/imgs/aeroplan-banner.png');
 	margin-bottom: 10px;
-}
+	height: 500px;
 
-@media(max-width: 766px){
-	.aeroplan-banner { 
-		height: 200px;
+	@media(max-width: 766px){
+		height: 150px;
 		margin-bottom: 0px;
 	}
-}
 
-@media(min-width: 767px) and (max-width: 1024px){
-	.aeroplan-banner {
+	@media(min-width: 767px) and (max-width: 1024px){
 		height: 300px;
 	}
 }

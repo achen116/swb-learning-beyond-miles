@@ -1,10 +1,8 @@
 .page-banner {
+	@extend .banner;
 	background-image: url('http://beyondmiles.herokuapp.com/imgs/org-banner.png');
 	height: 300px;
 	padding-top: 120px;
-	margin-bottom: 35px;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
 }
 
 @media(max-width: 767px){

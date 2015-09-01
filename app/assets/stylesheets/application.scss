@@ -10,6 +10,12 @@ $teal: #54B2A4;
 $raleway: 'Raleway', sans-serif;
 $oswald: 'Oswald', sans-serif;
 
+.banner {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-bottom: 35px;
+}
+
 @import "banner";
 @import "beyondmiles";
 @import "footer";
