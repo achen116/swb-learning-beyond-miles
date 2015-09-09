@@ -3,7 +3,7 @@
 
 .container
 	.row
-		.col-md-12.text-center
+		.col-md-14.text-center
 			%h3
 				Your
 				=link_to "Aeroplan", "https://www.aeroplan.com", class: "aeroplan-link", target: "blank"
@@ -12,19 +12,19 @@
 			=render 'layouts/donate'
 
 	.row
-		.col-md-12.text-center
+		.col-md-14.text-center
 			%img.donate-logos{alt: "swb-logo", src: "https://beyondmiles.herokuapp.com/imgs/swb-logo.png"}
 			%img.donate-logos{alt: "swb-logo", src: "http://beyondmiles.herokuapp.com/imgs/aeroplan-logo.png"}
 
 	%hr
 
 	.row
-		.col-md-12.text-center.orgs-header
+		.col-md-14.text-center.orgs-header
 			%h3 Click below to see your Aeroplan Miles in action.
 
-	.row.seven-cols
+	.row
 		-@organizations.each do |org|
-			.col-md-1.thumbnail.text-center#org-thumbnail
+			.col-md-2.thumbnail.text-center.org-info#org-thumbnail
 				=link_to(org) do
 					%img.org-image.img-responsive{alt: org.name, src: org.image}
 

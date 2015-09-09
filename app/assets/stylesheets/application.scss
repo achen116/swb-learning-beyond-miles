@@ -2,8 +2,10 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
 @import "font-awesome";
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@import "bootstrap.min";
+
+// @import "bootstrap-sprockets";
+// @import "bootstrap";
 
 @import "page";
 @import "navbar";

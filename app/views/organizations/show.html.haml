@@ -6,7 +6,7 @@
 
 .container
 	.row
-		.content.col-md-8.col-md-offset-2.text-center
+		.content.col-md-10.col-md-offset-2.text-center
 			%p= @organization.description
 			%p
 				Learn More:
@@ -14,7 +14,7 @@
 					=@organization.website
 
 	.row
-		.social-media.col-md-8.col-md-offset-2.text-center
+		.social-media.col-md-10.col-md-offset-2.text-center
 			-if @organization.logo != ""
 				%img.img-responsive#org-logo{alt: @organization.name, src: @organization.logo}
 			
@@ -39,9 +39,9 @@
 	%hr
 
 	.row
-		.col-md-8.col-md-offset-2.text-center
+		.col-md-10.col-md-offset-2.text-center
 			%p= @organization.miles_description
 
 	.row
-		.content.col-md-8.col-md-offset-2.text-center
+		.content.col-md-10.col-md-offset-2.text-center
 			=render 'layouts/donate'
