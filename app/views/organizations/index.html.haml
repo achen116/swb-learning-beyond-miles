@@ -24,7 +24,7 @@
 
 	.row.seven-cols
 		-@organizations.each do |org|
-			.col-md-1.thumbnail.text-center#org-thumbnail
+			.col-md-1.thumbnail.text-center.org-info#org-thumbnail
 				=link_to(org) do
 					%img.org-image.img-responsive{alt: org.name, src: org.image}
 
